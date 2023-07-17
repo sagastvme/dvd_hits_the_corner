@@ -31,7 +31,7 @@
                 setTimeout(() => {
                     if(i==0){
                         direction_horizontal='right'
-                    }else if (i == window.innerWidth - 100){
+                    }else if (i == window.innerWidth - 125){
                         direction_horizontal='left'
                     }
                     img.style.left = i + 'px';
