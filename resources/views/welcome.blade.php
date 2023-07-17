@@ -14,7 +14,7 @@
             let direction_horizontal='right'
             function moveTop(i, direction_top) {
                 setTimeout(() => {
-                    if (i == window.innerHeight-70) {
+                    if (i == window.innerHeight-60) {
                         direction_top='up';
                     }else if (i===0){
                         direction_top='down'
